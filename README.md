@@ -91,8 +91,9 @@ emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
 
 ## 📸 Screenshots
 
-(Add screenshots of your UI here)
-
+<p align="center">
+  <img src="home-page_screenshot.png" alt="LaundryWalla Homepage" width="800"/>
+</p>
 ---
 
 ## 🎯 Future Improvements
