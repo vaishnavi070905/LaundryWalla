@@ -1,9 +1,15 @@
 # 🧺 LaundryWalla – Service Booking Web App
 
+<p align="center">
+  <img src="home-page_screenshot.png" alt="LaundryWalla Homepage" width="800"/>
+</p>
+
+---
+
 ## 📌 Project Overview
 
 **LaundryWalla** is a simple and interactive **laundry service booking web application** built using **HTML, CSS, and JavaScript**.
-Users can select laundry services, view them in a cart, and book them online. A confirmation email is sent after booking.
+Users can select services, view them in a cart, and book them online. A confirmation email is sent after booking.
 
 ---
 
@@ -11,7 +17,7 @@ Users can select laundry services, view them in a cart, and book them online. A 
 
 * ✅ Add / Remove laundry services
 * ✅ Dynamic cart with real-time total calculation
-* ✅ User booking form (Name, Email, Phone)
+* ✅ Booking form with validation (Name, Email, Phone)
 * ✅ Email confirmation using EmailJS
 * ✅ Success message after booking
 * ✅ Clean and user-friendly UI
@@ -29,11 +35,12 @@ Users can select laundry services, view them in a cart, and book them online. A 
 
 ## 📂 Project Structure
 
-```id="a1b2c3"
+```
 LaundryWalla/
 │── index.html
 │── style.css
 │── script.js
+│── home-page_screenshot.png
 │── README.md
 ```
 
@@ -75,7 +82,7 @@ cd laundrywalla
 
 ## 📧 EmailJS Setup
 
-1. Create account on https://www.emailjs.com
+1. Create an account on https://www.emailjs.com
 2. Create:
 
    * Service ID
@@ -83,24 +90,17 @@ cd laundrywalla
    * Public Key
 3. Update in `script.js`:
 
-```js id="p0q1r2"
+```javascript
 emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
 ```
 
----
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="home-page_screenshot.png" alt="LaundryWalla Homepage" width="800"/>
-</p>
 ---
 
 ## 🎯 Future Improvements
 
 * 🔹 Add quantity selection
 * 🔹 Store cart using localStorage
-* 🔹 Make fully responsive (mobile-friendly)
+* 🔹 Improve mobile responsiveness
 * 🔹 Add animations for better UX
 
 ---
@@ -115,4 +115,4 @@ emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
 
 ## 📜 License
 
-This project is created for learning and academic purposes.
+This project is created for educational purposes.
