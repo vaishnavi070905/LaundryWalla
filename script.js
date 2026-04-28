@@ -17,7 +17,7 @@ buttons.forEach((btn, index) => {
             btn.innerHTML = 'Remove Item <ion-icon name="remove-circle-outline"></ion-icon>';   
             btn.style.backgroundColor = "#ff4d4d";
             btn.style.color = "white";
-            btn.style.padding = "5px"
+            btn.style.padding = "8px 14px";
 
         } else {
             cart = cart.filter(item => item.id !== index);
