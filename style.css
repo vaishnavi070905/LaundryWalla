@@ -271,17 +271,17 @@ header {
   display: block;
 }
 
-
-
 .services {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 60px 40px;
-  background: var(--off-white);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    background: var(--off-white);
+    align-items: start;
 }
+
 
 /* SERVICE LEFT — LIST */
 .services .service-left {
